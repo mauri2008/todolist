@@ -7,6 +7,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Requirements
+
+- PHP v7.+
+- Mysql 5.+
+- Composer 2.1.8
+
+## Execution instructions
+
+After loading source code follow the steps below:
+
+- create db_todolist database on your mysql.
+- After creating a database, access the .env file and change the database access data.
+   DB_HOST
+   DB_PORT
+   DB_DATABASE
+   DB_USERNAME
+   DB_PASSWORD
+   
+-After configuring the database in the .env file, enter the project folder unfinished and enter the command "php artisan migrate".
+    In case you have any problem importing db_todolist.sql files that are in the project root.
+
+- Before starting the project run the " composer install " command to install the necessary dependencies
+- 
+-After configuring the database just start the project by terminal with the command " php artisan serve ".
+A local server will be started using port 8000.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
